@@ -1,8 +1,8 @@
-# VETTOOTH Backend (Simplificado)
+# VETTOOTH
 
-Este repositório contém um servidor HTTP básico em Node.js que simula rotas para um aplicativo de odontologia.
+Aplicação demonstrativa para um sistema odontológico com rotas de API e uma interface web simples.
 
-## Rotas Disponíveis
+## Rotas da API
 - `/patients` – lista de pacientes
 - `/inventory` – itens do estoque
 - `/appointments` – agenda
@@ -12,4 +12,4 @@ Este repositório contém um servidor HTTP básico em Node.js que simula rotas p
 ```
 node index.js
 ```
-O servidor roda na porta `3000` por padrão.
+Depois acesse `http://localhost:3000` para visualizar a interface web. O servidor roda na porta `3000` por padrão.
